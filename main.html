@@ -1,45 +1,52 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
-<style>
-	body{
-		background-color:#f5f5f5;
-	}
-      .testimonial {
-    margin-bottom: 20px;;
-    padding:2px;
-	background-color:white;
-	border:2px solid black;
-	
-	}
-	.author{
-		text-align:right;
-		font-style:italic;
-	}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Section</title>
+    <link rel="stylesheet" href="styles.css"> <!-- CSS file link -->
+    <style>
+        body {
+            background-color: #f5f5f5; /* Body background color */
+        }
 
-	
-</style>
+        .main-container {
+            padding: 20px; /* Padding for the main container */
+            background-color: #fff; /* Background color for the main container */
+            max-width: 800px; /* Max width for the container */
+            margin: auto; /* Center the container */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
 
+        .testimonial {
+            padding: 15px; /* Padding for individual testimonials */
+            border: 1px solid #ccc; /* Border for testimonial boxes */
+            background-color: #fff; /* Background color for testimonial boxes */
+            margin-bottom: 15px; /* Space between testimonials */
+            border-radius: 5px; /* Rounded corners for testimonial boxes */
+        }
+
+        .author {
+            text-align: right; /* Align author text to the right */
+            font-style: italic; /* Italic style for author's name */
+        }
+    </style>
 </head>
 
 <body>
-	<h1>Testimonials</h1>
-<div class="testimonial">
-    <p>This product is missing!highly recommend to anyone in need of a solution  like this</p>
-    <p class="author">- John Doe</p>
-</div>
-<div class="testimonial">
-    <p>I have been waiting this for weeks now and it has completely transformed my workflow</p>
-    <p class="author">- Jane Smith</p>
-</div>
-	
-	
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="main-container">
+        <h1>Testimonials</h1>
+        <div class="testimonial">
+            <p>This product is amazing! Highly recommend it to anyone in need of a solution like this.</p>
+            <p class="author">- John Doe</p>
+        </div>
+        <div class="testimonial">
+            <p>I have been using this for a few weeks now and it has completely transformed my workflow.</p>
+            <p class="author">- Jane Smith</p>
+        </div>
+    </div>
 </body>
 
 </html>
